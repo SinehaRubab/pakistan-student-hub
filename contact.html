@@ -1,0 +1,49 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Student Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+  <nav>
+  <ul>
+  <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+  <li><a href="internships.html"><i class="fas fa-briefcase"></i> Internships</a></li>
+  <li><a href="resources.html"><i class="fas fa-book-open"></i> Resources</a></li>
+  <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+</ul>
+
+</nav>
+<button id="darkModeToggle" style="position:absolute; top:20px; right:20px;">🌞</button>
+
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Have Questions or Suggestions?</h2>
+   <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="682c1df6-fa8c-4636-947c-f722ce8ce9aa" />
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Pakistan Student Hub </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
